@@ -1,7 +1,7 @@
 import time
 
 
-#reading a text file using a clause for counting no. of characters
+#Reading a text file using a clause for counting no. of characters
 with open('making a file.txt','r') as f:
   data=f.readlines()
   for lines in data:
@@ -10,11 +10,11 @@ with open('making a file.txt','r') as f:
       for c in word:
         print(c)
 
-time.sleep(5)#for pause between the codes
+time.sleep(5)#For pause between the codes
 
 
 
-#reading a text file for counting no. of characters in an easy way 
+#Reading a text file for counting no. of characters in an easy way 
 with open('making a file.txt','r') as f:
   c=''
   while 1:
@@ -23,10 +23,10 @@ with open('making a file.txt','r') as f:
       break
     print(c,end="")
 
-time.sleep(5)#for pause between the codes
+time.sleep(5)#For pause between the codes
     
 
-#reading a text file for no. of alpabest and digits
+#Reading a text file for no. of alpabest and digits
 with open('making a file.txt','r') as f:
   c=''
   digit=alpha=0
