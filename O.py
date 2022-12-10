@@ -1,5 +1,5 @@
 import time
-#reading a text file line wise
+#Reading a text file line wise
 f=open('making a file.txt','r')
 count=1
 for c in f:
@@ -10,7 +10,7 @@ f.close()
 time.sleep(3) #for pause between the codes
 
 
-#reading a text file using a clause for splitting words
+#Reading a text file using a clause for splitting words
 f=open('making a file.txt','r')
 data=f.readlines()
 for lines in data:
@@ -21,7 +21,7 @@ f.close()
 time.sleep(3)
 
 
-#reading a text file using a clause for counting no. of words
+#Reading a text file using a clause for counting no. of words
 f=open('making a file.txt','r')
 data=f.readlines()
 no_of_words=0
